@@ -11,7 +11,7 @@ interface HomeProps {
 export default function Home(props: HomeProps) {
   return (
     <div>
-      <h1>Blog do Diego</h1>
+      <h1>Blog do João</h1>
       <ul>
         {props.posts.map((post, idx) => (
           <li key={idx}>
